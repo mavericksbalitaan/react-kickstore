@@ -1,0 +1,17 @@
+.storefront-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h2 {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .storefront-wrapper {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.shoedetails__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.shoedetails__container--card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  border: 1px solid #242424;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 70%;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.shoedetails__container--img {
+  img {
+    width: 300px;
+  }
+}
+
+.shoedetails__container--info {
+  margin: 1rem;
+}
+
+.home-btn {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .shoedetails__container {
+    margin: 1rem;
+  }
+  .shoedetails__container--card {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .shoedetails__container--img {
+    img {
+      width: 200px;
+    }
+  }
+}
