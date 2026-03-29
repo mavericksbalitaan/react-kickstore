@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.97b2b308.css",
+    "main.js": "/static/js/main.9584be91.js",
+    "static/media/maroon-black-gold-kyrie-max.png": "/static/media/maroon-black-gold-kyrie-max.fb0a60750c2928259e92.png",
+    "index.html": "/index.html",
+    "main.97b2b308.css.map": "/static/css/main.97b2b308.css.map",
+    "main.9584be91.js.map": "/static/js/main.9584be91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97b2b308.css",
+    "static/js/main.9584be91.js"
+  ]
+}

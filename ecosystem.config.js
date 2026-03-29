@@ -2,8 +2,8 @@ module.exports = {
   apps: [
     {
       name: "react-kickstore",
-      script: "npm",
-      args: "start",
+      script: "npx",
+      args: "serve -s build/ -l 5003",
       watch: true,
       env: {
         NODE_ENV: "production",
