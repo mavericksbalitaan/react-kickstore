@@ -3,11 +3,9 @@ module.exports = {
     {
       name: "react-kickstore",
       script: "npx",
-      args: "serve -s build/ -l 5003",
-      watch: true,
+      args: "serve -s build/ -p 5003",
       env: {
-        NODE_ENV: "production",
-        PORT: 5003,
+        NODE_ENV: "production"
       },
     },
   ],
